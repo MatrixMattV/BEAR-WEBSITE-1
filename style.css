@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(224, 96, 96);
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding: 8px 16px;
+    margin: 0 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    font-size: 16px;
+    padding: 5px 14px;
+    font-weight: 600;
+    outline: none;
+    letter-spacing: .5px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: brown;
+    color: aliceblue;
+    border: 2px solid black;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: black;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    font-size: 18px;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: .5px;
+    background: blue;
+    color: aliceblue;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    background: aliceblue;
+    color: blue;
+}
+
+.pic-content {
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    max-width: 750px;
+    left: -250px;
+    border-radius: 16px;
+    bottom: 20px;
+}
